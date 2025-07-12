@@ -1,0 +1,46 @@
+Project Setup Instructions for Raarya Website
+
+1. Install Node.js and npm
+- Download and install Node.js (which includes npm) from https://nodejs.org/
+- To verify installation, open a terminal and run:
+  node -v
+  npm -v
+- You should see version numbers for both.
+
+2. Get the Project Folder
+- Obtain the full project folder (not just some files) by:
+  - Downloading and extracting a ZIP
+  - Cloning from GitHub (if available)
+  - Copying from a USB drive, etc.
+
+3. Install Project Dependencies
+- Open a terminal and navigate to the project folder (where package.json is located):
+  cd path/to/project-folder
+- Run:
+  npm install
+- This will install all required packages.
+
+4. Start the Project
+- In the terminal, run:
+  npm run dev
+- Or, if that doesn't work, try:
+  npm start
+- The correct command is usually in the scripts section of package.json.
+
+5. Open the Project in Your Browser
+- After starting, the terminal will show a local address (e.g., http://localhost:5173). Open this in your browser.
+
+6. Troubleshooting
+- If you see errors about missing packages, run npm install again.
+- If you see errors about missing files or folders, make sure you are in the correct project directory.
+- If you have a .env file in the project, make sure it is present (ask the project owner if needed).
+- If you see errors about Node.js version, check the required version in package.json (engines field) and install the correct Node.js version.
+
+7. Checklist
+- [ ] Node.js and npm are installed
+- [ ] You have the full project folder
+- [ ] You ran npm install without errors
+- [ ] You can run npm run dev or npm start
+- [ ] The project opens in your browser
+
+If you have any issues, share the error message with the project owner for help. 
